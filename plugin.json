@@ -1,20 +1,20 @@
 {
-  "name": "ElasticExportTubach01",
+  "name": "ElasticExportFashionDE",
   "namespace": "ElasticExportFashionDE",
   "type": "export",
   "version": "1.0.5",
   "marketplaceName": {
-    "de":"Tubach-Partner.de",
-    "en":"Tubach-Partner.de"
+    "de":"Fashion.de",
+    "en":"Fashion.de"
   },
   "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007",
   "pluginIcon": "icon_plugin_md.png",
   "price": 0.00,
   "require": ["ElasticExport"],
-  "description": "TestExport Tubach01.",
+  "description": "This plugin adds the format Fashion.de to the Elastic Export.",
   "shortDescription": {
-    "de": "TestExport Tubach01.",
-    "en": "TestExport Tubach01."
+    "de": "Das Plugin ElasticExportFashionDE fügt das Datenformat FashionDE-Plugin zum Elastischen Export hinzu.",
+    "en": "This plugin adds the format FashionDE-Plugin to the Elastic Export."
   },
   "categories": [
     "3523"
