@@ -204,7 +204,7 @@ class BeezUp extends CSVPluginGenerator
                                 'Gewicht'               =>  $variation['data']['variation']['weightG'],
                                 'Grundpreis'            =>  $this->elasticExportHelper->getBasePrice($variation, $priceList),
                                 'ID'                    =>  $variation['data']['item']['id'],
-                                'free_var_1'			=> $this->elasticExportItemHelper->getFreeFields($variation['data']['item']['id'], 1),
+                                'free_var_1'			=>  $this->elasticExportHelper->getFreeFields($variation['data']['item']['id'], 1),
                             ];
 
                             $data = $this->addPropertyData($data, $variation['id']);
