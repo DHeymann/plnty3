@@ -116,7 +116,8 @@ class BeezUp extends CSVPluginGenerator
             'Größe',
             'Gewicht',
             'Grundpreis',
-            'ID'
+            'ID',
+            'free_var_1'
         ];
 
         if($elasticSearch instanceof VariationElasticSearchScrollRepositoryContract)
@@ -203,6 +204,7 @@ class BeezUp extends CSVPluginGenerator
                                 'Gewicht'               =>  $variation['data']['variation']['weightG'],
                                 'Grundpreis'            =>  $this->elasticExportHelper->getBasePrice($variation, $priceList),
                                 'ID'                    =>  $variation['data']['item']['id'],
+                                'free_var_1'			=> $this->elasticExportItemHelper->getFreeFields($variation['data']['item']['id'], 1),
                             ];
 
                             $data = $this->addPropertyData($data, $variation['id']);
