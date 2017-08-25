@@ -1,0 +1,23 @@
+{
+  "name": "ElasticExportBeezUp",
+  "description": "This plugin adds the format BeezUp to the Elastic Export.",
+  "namespace": "ElasticExportBeezUp",
+  "type": "export",
+  "serviceProvider": "ElasticExportBeezUp\\ElasticExportBeezUpServiceProvider",
+  "author": "plentymarkets GmbH",
+  "marketplaceName": {
+    "de":"BeezUp",
+    "en":"BeezUp"
+  },
+  "authorIcon": "icon_author_xs.png",
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007",
+  "pluginIcon": "icon_plugin_md.png",
+  "price": 0.00,
+  "shortDescription": {
+    "de": "Das Plugin ElasticExportBeezUp fügt das Datenformat BeezUp-Plugin zum Elastischen Export hinzu.",
+    "en": "This plugin ElasticExportBeezUp adds the format BeezUp-Plugin to the Elastic Export."
+  },
+  "categories": ["3523"],
+  "version": "1.0.12",
+  "require": ["ElasticExport"]
+}
